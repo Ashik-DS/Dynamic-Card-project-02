@@ -1,0 +1,19 @@
+.post-item{
+    width: 20rem;
+    height: 18rem;
+    box-shadow: 2px 2px 10px black;
+    margin: 1rem;
+    text-align: center;
+    transition: .3s;
+}
+.post-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post-item:hover{
+    box-shadow: 2px 2px 18px black;
+    transform: scale(1.03);
+    transition: .3s;
+}
